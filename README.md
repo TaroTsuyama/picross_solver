@@ -8,6 +8,25 @@
 
 ![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/img001.png?raw=true)
 
+図の例だと horizontal_hints と vertical_hints は次のようになる。  
+```python
+horizontal_hints = [
+    [1],
+    [5],
+    [3],
+    [1,1],
+    [1,1],
+]
+
+vertical_hints = [
+    [1,1],
+    [3],
+    [3],
+    [3],
+    [1,1],
+]
+```
+
 ## 使い方
 sample を見てね。
 
