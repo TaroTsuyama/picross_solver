@@ -8,7 +8,8 @@
 
 ![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/img001.png?raw=true)
 
-図の例だと horizontal_hints と vertical_hints は次のようになる。  
+horizontal_hints は上から順に、vertical_hints は左から順に list に格納していく。  
+図の例だと次のようになる。  
 ```python
 horizontal_hints = [
     [1],
