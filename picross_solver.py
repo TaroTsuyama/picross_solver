@@ -111,13 +111,10 @@ class Picross:
             全ての行の入力状態が成立するかチェック
         """
         for child_index in range(self.width):
-            # if not self._check_column(child_index):
             if not self._check_line(child_index, "vertical"):
                 return False
 
-            else:
-                if child_index == self.width -1:
-                    return True
+        return True
 
     def _get_column(self, index):
         """
@@ -258,6 +255,7 @@ class Picross:
                     if self._is_confirmed():
                         self._solved = True
                         return
+
                     self.solve(index+1)
                     if self._solved:
                         return
