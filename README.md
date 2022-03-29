@@ -41,13 +41,13 @@ sample を見てね。
 
 
 ### 使用例
-sample1
+sample1  
 ![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/sample1.png?raw=true)
 
-sample2
+sample2  
 ![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/sample2.png?raw=true)
 
-sample3
+sample3  
 ![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/sample3.png?raw=true)
 
 ## 注意点
