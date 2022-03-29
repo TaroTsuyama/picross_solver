@@ -39,6 +39,17 @@ sample を見てね。
 
 3.show メソッドで結果を表示
 
+
+### 使用例
+sample1
+![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/sample1.png?raw=true)
+
+sample2
+![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/sample2.png?raw=true)
+
+sample3
+![](https://github.com/TaroTsuyama/picross_solver/blob/main/img/sample3.png?raw=true)
+
 ## 注意点
 現段階では 10x10 くらいのサイズまでが実用的な範囲。  
 それより大きいものだと処理時間がとっても長くなります。  
